@@ -10,7 +10,7 @@
     -close(data type:float)
     -volume(data type:int)
   
-    also overloaded methods for the following operations:
+   also overloaded methods for the following operations:
     1. getitem
     2. setitem
     3. contain 
