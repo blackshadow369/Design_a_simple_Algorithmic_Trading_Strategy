@@ -15,6 +15,7 @@
   2. setitem
   3. contains
  
+ 
 2. Defined a function indicator1 that takes 2 arguments previous dataframe and timeperiod.
    And give output as another dataframe with 2 columns. 
    Timestamp: as timestamp
