@@ -17,8 +17,8 @@
  
 2. Defined a function indicator1 that takes 2 arguments previous dataframe and timeperiod.
    And give output as another dataframe with 2 columns. 
-   Timestamp: as timestamp
-   Indicator: moving average fo the 'close' column.
+    Timestamp: as timestamp
+    Indicator: moving average fo the 'close' column.
    
 3.Design a class Strategy that will do the following functionality
 - Fetch intraday historical day using Scriptdata class
