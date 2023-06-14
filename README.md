@@ -3,18 +3,17 @@
 1. Designed a ScriptData class that will fetch US Stock with the following functions:
   #fetch_intraday_data(argument:script) : will fetch data from the API in json
   #convert_intraday_data(argument:script): will change the data to dataframe with given columns:
-  -timestamp(data type: pandas.Timestamp)
-  -open(data type: float)
-  -high(data type:float)
-  -low(data type:float)
-  -close(data type:float)
-  -volume(data type:int)
+    -timestamp(data type: pandas.Timestamp)
+    -open(data type: float)
+    -high(data type:float)
+    -low(data type:float)
+    -close(data type:float)
+    -volume(data type:int)
   
-  also overloaded methods for the following operations:
-  1. getitem
-  2. setitem
-  3. contains
- 
+    also overloaded methods for the following operations:
+    1. getitem
+    2. setitem
+    3. contain 
  
 2. Defined a function indicator1 that takes 2 arguments previous dataframe and timeperiod.
    And give output as another dataframe with 2 columns. 
